@@ -1,11 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>食品降脂减肥功能预测</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <a>降脂减肥功能预测</a>
+    <header>
+        <h1>食品降脂减肥功能预测</h1>
+    </header>
+    <main>
+        <form id="foodForm">
+            <label for="foodName">食品名称:</label>
+            <input type="text" id="foodName" required>
+            <label for="calories">热量(卡路里):</label>
+            <input type="number" id="calories" required>
+            <button type="submit">预测</button>
+        </form>
+        <div id="result"></div>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
